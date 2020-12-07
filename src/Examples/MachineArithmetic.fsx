@@ -39,7 +39,7 @@ let bitvecExample2() =
     // Bit-wise operators
     // &&& bit-wise and
     // ||| bit-wise or
-    // ~~~~ bit-wise not
+    // ~~~ bit-wise not
     Z3.Solve(x &&& y =. ~~~y) |> ignore
 
     Z3.Solve(x <. 0) |> ignore
